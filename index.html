@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cifrado de Transposición (Escítala)</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h1>Arlette Cruz Luna 7B</h1>
+  <h1>- - - Cifrado de Transposición - - -</h1> 
+  <h1>Escitala</h1>
+  <h2>Cifrar mensaje</h2>
+  
+  <label for="message">Mensaje:</label><br>
+  <input type="text" id="message">
+  <br>
+  <label for="columns">Número de Columnas:</label><br>
+  <input type="number" id="columns" min="2" value="3">
+  <br>
+  <br>
+  <button onclick="encrypt()">Cifrar</button>
+  <br>
+  <p>Resultado Cifrado:</p>
+  <div id="result"></div>
+
+  <h2>Descifrar Mensaje</h2>
+  <label for="decryptedMessage">Mensaje Cifrado:</label><br>
+  <input type="text" id="decryptedMessage">
+  <br>
+  <br>
+  <button onclick="decrypt()">Descifrar</button>
+  <br>
+  <p>Resultado Descifrado:</p>
+  <div id="decryptedResult"></div>
+
+
+  <script src="funciones.js"></script>
+</body>
+</html>
